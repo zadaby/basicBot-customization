@@ -112,13 +112,13 @@
         songstats: true,
         commandLiteral: "!",
         blacklists: {
-            NSFW: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/NSFWlist.json",
-            OP: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/OPlist.json",
-            BANNED: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/BANNEDlist.json"
+            NSFW: "https://rawgit.com/zadaby/basicBot-customization/master/blacklists/NSFWlist.json",
+            OP: "https://rawgit.com/zadaby/basicBot-customization/master/blacklists/OPlist.json",
+            BANNED: "https://rawgit.com/zadaby/basicBot-customization/master/blacklists/BANNEDlist.json"
         }
     }));
 
     //Start the bot and extend it when it has loaded.
-    $.getScript("https://rawgit.com/Yemasthui/basicBot/master/basicBot.js", extend);
+    $.getScript("https://rawgit.com/zadaby/basicBot-1/master/basicBot.js", extend);
 
 }).call(this);
