@@ -58,32 +58,32 @@
     localStorage.setItem("basicBotsettings", JSON.stringify({
         botName: "basicBot",
         language: "english",
-        chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
-        startupCap: 1, // 1-200
-        startupVolume: 0, // 0-100
-        startupEmoji: false, // true or false
+        chatLink: "https://rawgit.com/zadaby/basicBot-1/master/lang/en.json",
+        startupCap: 200, // 1-200
+        startupVolume: 100, // 0-100
+        startupEmoji: true, // true or false
         autowoot: true,
         smartSkip: true,
         cmdDeletion: true,
         maximumAfk: 120,
         afkRemoval: true,
         maximumDc: 60,
-        bouncerPlus: true,
+        bouncerPlus: false,
         blacklistEnabled: true,
         lockdownEnabled: false,
         lockGuard: false,
         maximumLocktime: 10,
         cycleGuard: true,
         maximumCycletime: 10,
-        voteSkip: false,
-        voteSkipLimit: 10,
-        historySkip: false,
+        voteSkip: true,
+        voteSkipLimit: 3,
+        historySkip: true,
         timeGuard: true,
-        maximumSongLength: 10,
+        maximumSongLength: 6,
         autodisable: true,
-        commandCooldown: 30,
+        commandCooldown: 15,
         usercommandsEnabled: true,
-        skipPosition: 3,
+        skipPosition: 2,
         skipReasons: [
             ["theme", "This song does not fit the room theme. "],
             ["op", "This song is on the OP list. "],
