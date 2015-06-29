@@ -122,3 +122,4 @@
     $.getScript("https://rawgit.com/zadaby/basicBot-1/master/basicBot.js", extend);
 
 }).call(this);
+
