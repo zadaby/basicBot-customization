@@ -113,7 +113,7 @@
         commandLiteral: "!",
         blacklists: {
             NSFW: "https://github.com/zadaby/basicBot-customization/tree/master/blacklists/NSFWlist.json",
-            OP: "https://github.com/zadaby/basicBot-customization/tree/master/blacklists/OPlist.json",
+            OP: "https://rawgit.com/zadaby/basicBot-customization/master/blacklists/OPlist.json",
             BANNED: "https://raw.githubusercontent.com/zadaby/basicBot-customization/master/blacklists/BANNEDlist.json"
         }
     }));
